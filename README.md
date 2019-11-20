@@ -17,17 +17,15 @@ The switch between a greedy and a random action can be done by pressing "m".
 This class deals with running the 3D world. The cats try to eat the mice. If they do, the mouse dies and the cat increases in size. If the cat eats more than a certain number of mice, then it dies and mice are added in its place. If all of the cats die, then 5 more cats are added to the system. Depending on what is the mice-eaten-cat-death-threshold, the game might never finish (i.e. if a cat dies after only eating 3 mice, then the simulation will never happen).
 
 ## VR game
-It is a feature of the Simulation class. You will compete against an other computer controlled cat to see which one wins. The opponent cat could be operating on a greedy-action or a random-action depending on your settings (and you can always switch). You will begin by getting this screen. 
-     
-You put a distinct colored object in the square below. Then press "Esc". The webcam will trace that color in real-time and move your cat in the x-y frame with respect to the position of object in the web-cam frame. The depth of the cat could be controlled by using the the "r" and "f" keys to increase and decrease it respectively. In the terminal it prints out the score for each cat once one of the mice is eaten. Please click here to see a demo.
+It is a feature of the Simulation class. You will compete against an other computer controlled cat to see which one wins. The opponent cat could be operating on a greedy-action or a random-action depending on your settings (and you can always switch). You put a distinct colored object in the square below. Then press "Esc". The webcam will trace that color in real-time and move your cat in the x-y frame with respect to the position of object in the web-cam frame. The depth of the cat could be controlled by using the the "r" and "f" keys to increase and decrease it respectively. In the terminal it prints out the score for each cat once one of the mice is eaten.
 
 Some other openGL features that have been implemented are:
-->
-->
-->
+-> Phong Illumination model
+-> Hierarchical animated object
 
-
-## Description of code
+## How to run?
+You will need a linux environment.
+Type in terminal "make run".
 
 
 
