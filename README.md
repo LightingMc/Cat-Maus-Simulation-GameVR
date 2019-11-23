@@ -29,7 +29,7 @@ It is a feature of the Simulation class. You will compete against an other compu
 
 The webcam will trace that color in real-time and move your cat in the x-y frame with respect to the position of object in the web-cam frame. The depth of the cat could be controlled by using the the "r" and "f" keys to increase and decrease it respectively. 
 
-![VR game what is happeing](https://user-images.githubusercontent.com/42900802/69480530-0da61b00-0e00-11ea-8363-ae02230cc911.png)
+        ![VR thumb](https://user-images.githubusercontent.com/42900802/69480648-53afae80-0e01-11ea-9f34-c621c9d1dcd1.png)
 
 In the terminal it prints out the score for each cat once one of the mice is eaten.
 
