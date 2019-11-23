@@ -34,6 +34,7 @@ The webcam will trace that color in real-time and move your cat in the x-y frame
 In the terminal it prints out the score for each cat once one of the mice is eaten.
 
 Some other openGL features that have been implemented are:
+
 -> Phong Illumination model
 
 ![VR phong](https://user-images.githubusercontent.com/42900802/69480591-a5a40480-0e00-11ea-9cd2-962db9f32fa6.png)
