@@ -17,22 +17,31 @@ The cats move randomly, without respect to the position of the mice.
 The switch between a greedy and a random action can be done by pressing "m".
 
 ## Simulation
+
 This class deals with running the 3D world. The cats try to eat the mice. If they do, the mouse dies and the cat increases in size. If the cat eats more than a certain number of mice, then it dies and mice are added in its place. If all of the cats die, then 5 more cats are added to the system. Depending on what is the mice-eaten-cat-death-threshold, the game might never finish (i.e. if a cat dies after only eating 3 mice, then the simulation will never happen).
 
+![VR simu](https://user-images.githubusercontent.com/42900802/69480563-61186900-0e00-11ea-8356-4b13bf901880.png)
+
 ## VR game
-It is a feature of the Simulation class. You will compete against an other computer controlled cat to see which one wins. The opponent cat could be operating on a greedy-action or a random-action depending on your settings (and you can always switch). You put a distinct colored object in the square below. Then press "Esc". The webcam will trace that color in real-time and move your cat in the x-y frame with respect to the position of object in the web-cam frame. The depth of the cat could be controlled by using the the "r" and "f" keys to increase and decrease it respectively. In the terminal it prints out the score for each cat once one of the mice is eaten.
+It is a feature of the Simulation class. You will compete against an other computer controlled cat to see which one wins. The opponent cat could be operating on a greedy-action or a random-action depending on your settings (and you can always switch). You put a distinct colored object in the square below. Then press "Esc". 
+
+![VR](https://user-images.githubusercontent.com/42900802/69480541-33332480-0e00-11ea-9115-cb86038b0e9a.png)
+
+The webcam will trace that color in real-time and move your cat in the x-y frame with respect to the position of object in the web-cam frame. The depth of the cat could be controlled by using the the "r" and "f" keys to increase and decrease it respectively. 
+
+![VR game what is happeing](https://user-images.githubusercontent.com/42900802/69480530-0da61b00-0e00-11ea-8363-ae02230cc911.png)
+
+In the terminal it prints out the score for each cat once one of the mice is eaten.
 
 Some other openGL features that have been implemented are:
 -> Phong Illumination model
+
+![VR phong](https://user-images.githubusercontent.com/42900802/69480591-a5a40480-0e00-11ea-9cd2-962db9f32fa6.png)
+
 -> Hierarchical animated object
+
+
 
 ## How to run?
 You will need a linux environment.
-Type in terminal "make run".
-
-
-
-
-
-
-
+Run in terminal "make run".
