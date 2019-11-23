@@ -1,5 +1,8 @@
 # Cat-Maus-Simulation-GameVR
-This is me playing around with OpenGL and combing it with openCV.
+
+![VR game demo](https://user-images.githubusercontent.com/42900802/69480443-5f01da80-0dff-11ea-87cd-5db4a7996dd0.png)
+
+Combined OpenGL and openCV. Here is a link for the demo: https://www.youtube.com/watch?v=sTga34dPvfI&t=2s.
 
 There are cats and mice in this world in a 3D space. The mice are to be eaten by the cats. A "eat" happens when the 3D distance between a cat and a mouse is less than a given threshold (right now it is 25).
 
